@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': '插入&更新TOC(Insert or Update)'
+      'command': 'atom-markdown-toc:insert'
+    },
+    {
+      'label': '删除TOC(Delete)'
+      'command': 'atom-markdown-toc:delete'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-markdown-toc'
+      'submenu': [
+        {
+          'label': '插入&更新TOC(Insert or Update)'
+          'command': 'atom-markdown-toc:insert'
+        },
+        {
+          'label': '删除TOC(Delete)'
+          'command': 'atom-markdown-toc:delete'
+        }
+      ]
+    ]
+  }
+]

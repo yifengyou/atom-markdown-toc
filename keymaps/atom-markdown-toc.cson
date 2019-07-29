@@ -6,8 +6,7 @@
 # the root workspace element.
 
 # For more detailed documentation see
-# https://atom.io/docs/latest/advanced/keymaps
+# https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
-  'ctrl-alt-c': 'markdown-toc:create'
-  'ctrl-alt-u': 'markdown-toc:update'
-  'ctrl-alt-r': 'markdown-toc:delete'
+  'ctrl-alt-t i': 'atom-markdown-toc:insert'
+  'ctrl-alt-t d': 'atom-markdown-toc:delete'
